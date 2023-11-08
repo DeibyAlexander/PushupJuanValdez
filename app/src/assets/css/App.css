@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  text-decoration: none;
+}
+
+.App{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  
+}
+
+.contenedor-nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.container-fluid{
+  color: black;
+  z-index: 100;
+}
+
+
+.container-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 80px 40px 40px 40px;
+
+ 
+}
+
+.card{
+  background-color: rgba(255, 255, 255, 0.26);
+  border-radius: 5px;
+  border: solid 2px grey;
+
+}
+.contenido-card{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
